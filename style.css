@@ -10,7 +10,7 @@
 
 
 header {
-    background-color: #f0f0f0;
+    background-color: #b10a0a;
     width: 100%;
     position: fixed;
     z-index: 999;
@@ -22,14 +22,15 @@ header {
 
 .logo{
     text-decoration: none;
-    color: #3a6cf4;
+    color: #faf5f5;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 1.8em;
+    padding-left: 300px
 }
 
 .navigation a{
-    color: #3a6cf4;
+    color: #850707;
     text-decoration: none;
     font-size: 1.1em;
     font-weight: 500;
@@ -64,23 +65,37 @@ section {
 .main h2 span {
     display: inline-block;
     margin-top: 10px;
-    color: #4e9eff;
+    color: #880606;
     font-size: 3em;
     font-weight: 600;
+    padding-left: 300px
 }
 
 .main h3 {
-    color: #fff;
+    color: rgb(110, 7, 7);
     font-size: 2em;
     font-weight: 700;
     letter-spacing: 1px;
     margin-top: 10px;
     margin-bottom: 30px;
+    padding-left: 320px
 }
-
 .main-btn {
+    color: rgb(253, 251, 251);
+    background-color: #8f0606;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.7s ease;
+    }
+.well {
     color: #fff;
-    background-color: #3a6cf4;
+    background-color: #850707;
     text-decoration: none;
     font-size: 1.1em;
     font-weight: 600;
@@ -91,9 +106,12 @@ section {
     margin-bottom: 40px;
     transition: 0.7s ease;
 }
+.span {
+  color: rgb(250, 245, 245);
 
+}
 .main-btn:hover {
-    background-color: #0a49f6;
+    background-color: #f6f6f8;
     transform: scale(1.1);
 }
 
@@ -106,7 +124,7 @@ section {
 .title {
     display: flex;
     justify-content: center;
-    color: #3a6cf4;
+    color: #a70606;
     font-size: 2.2em;
     font-weight: 800;
     margin-bottom: 30px;
@@ -134,7 +152,7 @@ section {
 }
 
 .card .icon {
-    color: #3a6cf4;
+    color: #8f0c0c;
     font-size: 8em;
     text-align: center;
 }
@@ -200,11 +218,11 @@ section {
 
 .more-details {
     text-decoration: none;
-    color: #3a6cf4;
+    color: #9c0808;
 }
 
 .more-details:hover {
-    color: #601cfc;
+    color: #b10606;
 }
 
 .contact .icon{
@@ -220,7 +238,7 @@ section {
 }
 
 .footer {
-    background-color: #000016;
+    background-color: #b60a0a;
     color: #fff;
     padding: 2em;
     display: flex;
@@ -233,7 +251,7 @@ section {
 }
 
 .footer-title span {
-    color: #3a6cf4;
+    color: #ffffff;
 }
 
 .footer .social-icons a{
@@ -243,6 +261,7 @@ section {
 
 @media (max-width:1023px){
     header{
+      
         padding: 12px 20px;
     }
 
